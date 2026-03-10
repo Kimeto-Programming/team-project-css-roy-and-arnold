@@ -1,0 +1,57 @@
+.registration-card {
+    background-color: #f0eaea;
+    padding: 40px;
+    border-radius: 12px;
+    border: 1px solid #e2dada;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+}
+fieldset {
+    border: 1px solid #cdb9b9;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+legend {
+    padding: 0 10px;
+    color: #6b1010; 
+    font-size: 1.1rem;
+}
+.button-row {
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.submit-btn {
+    background-color: #6b1010;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+.submit-btn:hover {
+    background-color: #007bff; 
+}
+.reset-btn {
+    background-color: #fff;
+    color: #6b1010;
+    padding: 12px 30px;
+    border: 1px solid #6b1010;
+    border-radius: 8px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.reset-btn:hover {
+    background-color: #f8f4f4;
+    border-color: #007bff;
+    color: #007bff;
+}
